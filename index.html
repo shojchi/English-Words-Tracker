@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>English Words Tracker</title>
+    <link rel="icon" href="assets/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="main-container">
+        <header class="header">
+            <h1 class="text-center" id="header-time">Hello! Today is: </h1>
+            <div class="progress-container text-center">progress bar!</div>
+        </header>
+
+        <main>
+            <div class="control-container">
+                <div class="words-input-wrapper">
+                    <label for="words-input">Add a new one:</label>
+                    <input id="words-input" type="text" placeholder="New word">
+                    <button id="submit-new-word" (click)="addNewWord()">Add to the list</button>
+                </div>
+                
+            </div>
+
+            <div class="words-container">
+                <ol id="words-list"></ol>
+            </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
