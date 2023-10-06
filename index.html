@@ -26,11 +26,22 @@
                     <input id="words-input" type="text" placeholder="New word">
                     <button id="submit-new-word" (click)="addNewWord()">Add to the list</button>
                 </div>
-                
+
             </div>
 
             <div class="words-container">
-                <ol id="words-list"></ol>
+                <figure>
+                    <figcaption class="text-center">Words:</figcaption>
+                    <ol id="words-list"></ol>
+                </figure>
+                <figure>
+                    <figcaption class="text-center">Transcription:</figcaption>
+                    <ol id="transcription-list"></ol>
+                </figure>
+                <figure>
+                    <figcaption class="text-center">Translate:</figcaption>
+                    <ol></ol>
+                </figure>
             </div>
     </div>
     </div>

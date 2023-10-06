@@ -28,6 +28,7 @@ main {
     border-top: 5px solid seagreen;
 
     & .words-container {
+        display: flex;
         border: 2px darkcyan solid;
         border-radius: 25px;
         padding-right: 40px;
